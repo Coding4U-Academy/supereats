@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body{ 
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.logo{
+    color: red;
+    margin-left: 30px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 50px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-right: 100px;
+   
+}
+
+.nav-link {
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+}
+
+.nav-link:hover{
+    color: red;
+}
+
+.hero {
+    background-image: url("../images/hot_chillie_food.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px
+}
+
+.hero-text{
+    padding-top: 100px;
+    padding-left: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.heading {
+    color: red;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 50px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 20px;
+}
+
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.image{
+    border-radius: 15px;
+}
+
+
+.why-us-text{
+    max-width: 1200px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
